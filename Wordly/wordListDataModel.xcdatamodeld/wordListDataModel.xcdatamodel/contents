@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="Advanced" representedClassName=".Advanced" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="en_definition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="en_sentence" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="en_word" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tr_definition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tr_sentence" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tr_word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Beginner" representedClassName=".Beginner" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="en_definition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="en_sentence" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="en_word" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tr_definition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tr_sentence" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tr_word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Intermediate" representedClassName=".Intermediate" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="en_definition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="en_sentence" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="en_word" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tr_definition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tr_sentence" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tr_word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Advanced" positionX="-36" positionY="99" width="128" height="165"/>
+        <element name="Beginner" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="Intermediate" positionX="-54" positionY="54" width="128" height="165"/>
+    </elements>
+</model>
