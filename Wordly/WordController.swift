@@ -31,6 +31,8 @@ class WordController : BaseContoller {
         //badge number reset to zero
         UIApplication.sharedApplication().applicationIconBadgeNumber = 0
         
+        //Github Deneme
+        
         //#TODO: - TEET CLEAR TEST CLEAR
         let willlSHOW = UserPrefence.willShowProgress()
         if willlSHOW {
